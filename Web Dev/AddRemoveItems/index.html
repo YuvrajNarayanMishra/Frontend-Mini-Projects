@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="category-input">
+            <label for="new-category">New Category:</label>
+            <input type="text" id="new-category">
+            <button onclick="addCategory()">Add</button>
+        </div>
+        <div class="categories-list">
+            <h3>Categories List</h3>
+            <ol id="categories-list">
+                <!-- <li>All</li>
+                <li>Electronics</li>
+                <li>Footwear</li>
+                <li>Fashion</li>
+                <li>Men's Clothing</li> -->
+
+            </ol>
+        </div>
+        <div class="select-category">
+            <h3>Select Category</h3>
+            <select id="select-category">
+                <!-- <option value="All">All</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Footwear">Footwear</option>
+                <option value="Fashion">Fashion</option>
+                <option value="MensClothing">Men's Clothing</option> -->
+            </select>
+            <button onclick="removeCategory()">Remove</button>
+        </div>
+        <div class="categories-menu">
+            <h3>Categories Menu</h3>
+            <ul id="categories-menu">
+                <!-- <li>All</li>
+                <li>Electronics</li>
+                <li>Footwear</li>
+                <li>Fashion</li>
+                <li>Men's Clothing</li> -->
+            </ul>
+        </div>
+        <div class="categories-checklist">
+            <h3>Categories CheckList</h3>
+            <form>
+                <!-- <input type="checkbox" id="check-all" name="category" value="All">
+                <label for="check-all">All</label><br>
+                <input type="checkbox" id="check-electronics" name="category" value="Electronics">
+                <label for="check-electronics">Electronics</label><br>
+                <input type="checkbox" id="check-footwear" name="category" value="Footwear">
+                <label for="check-footwear">Footwear</label><br>
+                <input type="checkbox" id="check-fashion" name="category" value="Fashion">
+                <label for="check-fashion">Fashion</label><br>
+                <input type="checkbox" id="check-mens-clothing" name="category" value="MensClothing">
+                <label for="check-mens-clothing">Men's Clothing</label> -->
+            </form>
+        </div>
+        <div id="navButton" class="nav-buttons">
+            <h3>Nav Buttons</h3>
+            <!-- <button>All</button>
+            <button>Electronics</button>
+            <button>Footwear</button>
+            <button>Fashion</button>
+            <button>Men's Clothing</button> -->   
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
